@@ -52,4 +52,10 @@ class ChaiCertificate(models.Model):
         return f'Certificate for {self.name.chai}'
 
 
+<<<<<<< HEAD
  
+=======
+ 
+
+
+>>>>>>> shubh-off

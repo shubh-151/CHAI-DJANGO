@@ -1,13 +1,21 @@
+{% comment %} {% extends "layout.html" %}
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+        {% block title %}
+          contact   
+        {% endblock %}
+
     <link rel="stylesheet" href="{% static 'style.css' %}">
 </head>
 <body>
+    {% block content %}
     <h1>contact</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque culpa, possimus cum eum beatae quasi, nostrum, accusantium libero est enim obcaecati ab voluptates quibusdam numquam quaerat! Neque quisquam molestiae totam.</p>
+    {% endblock %}
 </body>
-</html>
+</html> {% endcomment %}
